@@ -1,0 +1,72 @@
+﻿html, body {
+	background:url(../img/bg.jpg) center center no-repeat;
+	height: 100%;
+	background-size:cover;
+}
+
+#logo img {
+	padding-top:20px;
+}
+
+#intro p {
+	color: white;
+	text-align:center;
+	font-size:1.8em;
+	font-family: 'DroidArabicKufiRegular';
+	font-weight: normal;
+	font-style: normal; 
+}
+
+#counter .countdown {
+	color: white;
+	text-align:center;
+	font-size:1.8em;
+}
+
+
+#icons {
+    text-align:center;
+}
+
+#icons .fa {
+    color:white;
+    margin:5px 15px;
+    position:relative;
+    bottom:0;
+    transition:all 0.2s ease-in-out;
+}
+
+#icons .twitter:hover {
+    color:#6cadde;
+    bottom:5px;
+}
+
+#icons .facebook:hover {
+    color:#3b5998;
+    bottom:5px;
+}
+
+#icons .google:hover {
+    color:#ea4335;
+    bottom:5px;
+}
+
+#icons .instagram:hover {
+    color:#517fa6;
+    bottom:5px;
+}
+
+#signup {
+    text-align:center;
+    color:white;
+}
+
+#signup .btn-signup {
+    background-color:rgba(161,186,226,0.5);
+    transition:all 0.3s ease-in-out;
+    color: white;
+}
+
+#signup .btn-signup:hover {
+    background-color:rgba(37,165,82,1);
+}
